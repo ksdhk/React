@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-const name = '리액트';
+const name = '리뒉트';
 
 return (
   <div>
