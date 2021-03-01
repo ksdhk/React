@@ -1,17 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
-const name = '리액트';
- return (
- <>
- {/*주석은 이렇게 작성*/}
- <div className="react">{name}
-
- </div>
- //이런 주석이나
- /*이런거는 다 보임 */
-</>
- )
+  const name = "리액트";
+  return (
+    <>
+      {/*주석은 이렇게 작성*/}
+      <div className="react">
+        {name}
+        <h1>들여쓰기가 이상한</h1>
+        <h2>코드</h2>
+        <p>입니다.</p>
+      </div>
+    </>
+  );
 }
 export default App;
