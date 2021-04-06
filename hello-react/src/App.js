@@ -1,8 +1,8 @@
 import React from 'react';
-import ValidationSameple from './ValidationSameple';
+import IterationSample from './IterationSample';
 
 const App = () => {
-  return <ValidationSameple />;
+  return <IterationSample />;
 }
 
 export default App;
