@@ -55,7 +55,7 @@ static getDerivedStateFromProps(nextProps, prevState){
     }
     }
 
-    reunder(){
+    render(){
         console.log('render');
 
         const style = {
@@ -76,3 +76,5 @@ static getDerivedStateFromProps(nextProps, prevState){
     }
 
 }
+
+export default LifeCycleSample;
